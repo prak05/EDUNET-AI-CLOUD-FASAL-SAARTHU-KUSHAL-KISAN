@@ -1,0 +1,18 @@
+# IBM Watsonx.ai Configuration
+model:
+  name: "Fasal Saarthi Crop Recommendation"
+  version: "1.0.0"
+  endpoint: "https://au-syd.ml.cloud.ibm.com/ml/v4/deployments/6e5c5f4f-6361-4659-bc73-e8e6ce7b716a/predictions"
+  
+features:
+  - "N"      # Nitrogen content
+  - "P"      # Phosphorous content  
+  - "K"      # Potassium content
+  - "temperature"
+  - "humidity"
+  - "ph"
+  - "rainfall"
+
+target:
+  name: "label"
+  description: "Recommended crop"
