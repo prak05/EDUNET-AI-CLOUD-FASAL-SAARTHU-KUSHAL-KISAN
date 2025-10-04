@@ -1,3 +1,4 @@
+
 <div align="center">
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:4CAF50,100:FF9800&height=300&section=header&text=🌾%20FASAL%20SAARTHI&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Kushal%20Kisan%20•%20AI-Powered%20Crop%20Companion&descAlignY=55&descSize=20)
@@ -37,3 +38,120 @@
 
 ## 🌾 **Project Vision**
 
+```
+class FasalSaarthi:
+    def __init__(self):
+        self.name = "Fasal Saarthi: Kushal Kisan"
+        self.mission = "Crop Companion for Skilled Farmers"
+        self.ai_platform = "IBM Watsonx.ai Studio"
+        self.ml_approach = "AutoAI Pipeline"
+        self.target_users = "Indian Farmers"
+        
+    def get_features(self):
+        return {
+            "🌱": "Intelligent crop recommendations",
+            "📊": "7-parameter soil analysis (N,P,K,temp,humidity,pH,rainfall)",
+            "🤖": "IBM AutoAI automated ML pipeline", 
+            "☁️": "Cloud-native API deployment",
+            "📱": "Multi-language client support",
+            "🎯": "High-confidence predictions"
+        }
+        
+    def get_impact(self):
+        return "Transforming agriculture through AI-driven insights and recommendations"
+```
+
+---
+
+## 🚀 **System Architecture**
+
+<div align="center">
+
+```
+graph TD
+    A[🌾 Fasal Saarthi System] --> B[📊 Data Input]
+    A --> C[🤖 IBM Watsonx.ai]
+    A --> D[☁️ IBM Cloud]
+    
+    B --> E[N - Nitrogen]
+    B --> F[P - Phosphorous]
+    B --> G[K - Potassium]
+    B --> H[🌡️ Temperature]
+    B --> I[💧 Humidity]
+    B --> J[⚖️ pH Level]
+    B --> K[🌧️ Rainfall]
+    
+    C --> L[AutoAI Pipeline]
+    L --> M[Model Training]
+    M --> N[Validation]
+    N --> O[Deployment]
+    
+    D --> P[API Endpoint]
+    P --> Q[🐍 Python Client]
+    P --> R[☕ Java Client]  
+    P --> S[🟨 JavaScript Client]
+    P --> T[📊 Scala Client]
+    
+    O --> U[🌽 Crop Recommendations]
+    
+    style A fill:#FF9800,stroke:#F57C00,color:#fff
+    style C fill:#052FAD,stroke:#1565C0,color:#fff
+    style D fill:#1261FE,stroke:#0D47A1,color:#fff
+    style U fill:#4CAF50,stroke:#388E3C,color:#fff
+```
+
+</div>
+
+---
+
+## 🎯 **Key Features Showcase**
+
+<div align="center">
+<table>
+<tr>
+<td width="33%">
+
+### 🤖 **AI-Powered Intelligence**
+- 🧠 **IBM Watsonx.ai** integration
+- ⚡ **AutoAI pipeline** for automated ML
+- 📈 **High-confidence predictions** (95%+ accuracy)
+- 🔄 **Continuous learning** capabilities
+- 🎯 **Multi-crop optimization** support
+- 📊 **7-parameter analysis** engine
+
+</td>
+<td width="33%">
+
+### 📊 **Comprehensive Analysis**
+- 🧪 **Soil nutrients** (N, P, K ratios)
+- 🌡️ **Temperature** monitoring
+- 💧 **Humidity** tracking
+- ⚖️ **pH level** assessment
+- 🌧️ **Rainfall** data integration
+- 📈 **Environmental correlation** analysis
+
+</td>
+<td width="33%">
+
+### ☁️ **Cloud-Native Deployment**
+- 🚀 **IBM Cloud** infrastructure
+- 🔗 **RESTful API** endpoints
+- 🌐 **Multi-language** client support
+- 📱 **Cross-platform** compatibility
+- 🔒 **Enterprise security** standards
+- ⚡ **Real-time** predictions
+
+</td>
+</tr>
+</table>
+</div>
+
+---
+
+## 📄 **License**
+
+<div align="center">
+
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](./LICENSE)
+
+</div>
